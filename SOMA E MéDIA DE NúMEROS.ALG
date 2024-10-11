@@ -1,4 +1,4 @@
- algoritmo "Soma e Média de Números"
+ algoritmo 1 "Soma e MÃ©dia de NÃºmeros"
 var
    numero: real
    soma: real
@@ -12,7 +12,7 @@ inicio
    continuar <- "s"
 
    enquanto continuar = "s" faca
-      escreva("Digite um número: ")
+      escreva("Digite um nÃºmero: ")
       leia(numero)
 
       soma <- soma + numero
@@ -25,10 +25,10 @@ inicio
 
    se contador > 0 entao
       media <- soma / contador
-      escreval("Soma dos números: ", soma)
-      escreval("Média dos números: ", media:0:2)
+      escreval("Soma dos nÃºmeros: ", soma)
+      escreval("MÃ©dia dos nÃºmeros: ", media:0:2)
    senao
-      escreval("Nenhum número foi digitado.")
+      escreval("Nenhum nÃºmero foi digitado.")
    fimse
 
 fimalgoritmo
