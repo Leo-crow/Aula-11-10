@@ -5,7 +5,7 @@ var
    media: real
    continuar: caractere
    contador: inteiro
-
+sla oq né
 inicio
    soma <- 0
    contador <- 0
